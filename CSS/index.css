@@ -10,35 +10,26 @@ header {
 a {
   text-decoration: none;
   transition: all .2s;
-    transition-property: all;
-    transition-duration: 0.2s;
-    transition-timing-function: initial;
-    transition-delay: initial;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: initial;
+  transition-delay: initial;
 }
-.holder-logo{
-    display: inline-block;
-    padding: 0 47px;
-    float: left;
-    /*-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;*/
-    box-sizing: border-box;
+.holder-logo {
+  display: inline-block;
+  padding: 0 47px;
+  float: left;
+  box-sizing: border-box;
 }
 .logo {
-    /*display: inline-block;
-    width: 50px;
-    height: 26px;
-    background: url("file:/Users/computer/Projects/Bubb_Webb_Studio/Images/bb.png") no-repeat 0 0;
-    vertical-align: middle;
-    z-index: 90;
-    border:1px solid red;*/
-    position: absolute; 
-    top: 25px;
-    left: 10px;
-    width: 100px;
-    height: 26px;
-    background: url("file:///Users/computer/Projects/Bubb_Webb_Studio/Images/bb.png") no-repeat 0 0;    
-    vertical-align: middle;
-    z-index: 90;
+  position: absolute; 
+  top: 25px;
+  left: 10px;
+  width: 100px;
+  height: 26px;
+  background: url("file:///Users/computer/Projects/Bubb_Webb_Studio/Images/bb.png") no-repeat 0 0;    
+  vertical-align: middle;
+  z-index: 90;
     
 }
 .ball{
@@ -75,8 +66,6 @@ a {
   top:78px;
   right:200px;
   width: 75px;
-  
-  
 }
 
 li {
@@ -108,14 +97,14 @@ li:hover {
 
 }
 ul {
-  /*width: 20%;*/
-  /*height:10px;*/
   padding-top: 35px;
   font-family: 'Arimo', sans-serif;
   font-size: 13px;
   margin-top: 1%;
   margin-left: 20%;
   margin-right:40%;
+  position: absolute;
+  top: 15px;
 
 }
 
@@ -219,7 +208,7 @@ entry-holder {
   max-width: 830px;
   margin-top: 35px;
   vertical-align: baseline;
-  background-color: pink;
+  background-color: #EEE;
 }
 .center-text {
   text-align: center;
@@ -232,14 +221,6 @@ entry-holder {
   float: left;
   box-sizing: border-box;
   vertical-align: baseline;
-  /**/
-  /*border: 0;
-    outline: 0;
-    font-size: 18px;
-    font-family: 'Chathura', sans-serif;
-    border-bottom: 3px solid #CCC;
-    
-    background: 0 0;*/
 
 }
 .entry-dropdown {
